@@ -1,0 +1,21 @@
+Serileştirme: Nesnenin durumunu byte akışına yazma sürecidir.
+Programın durumunu ve nesnenin durmunu kayıt etmek için dosya sistemindeki bir dosyaya serileştirilmiş nesne durumunu yazabiliriz.
+Dolayısıyla dosyalara nesneler yazılabilir ve okunabilir.
+Nesne giriş çıkış işlemleri(serileştirme[serialization]) olarak anılır.
+Diğer dillerde serileştirme zor olabilir. Çünkü nesneler başka nesnelere referans alabilirler.
+Java serileştirmeyi kolay hale getirmiştir.
+Bir nesne serileştirilmek istenirse referansı olan sırası ile tüm nesneler serileştirilir.
+Nesne aynı şekilde serileştirilmesi geri alınarak nesne haline geri gelir.
+
+Serialization(Serileştirilmemmiş bir nesnenin serileştirilerek ilgili yere yazılması. DB, File, Memory)
+Nesne --> Byte Akışı --> (DB, File System, Memory) 
+
+DeSerializable(Serileştirilmiş bir nesnenin deserileştirilmesi[Serileştirilmenin geri alınması.!])
+(DB, File System, Memory)  --> Byte Akışı -->  Nesne
+
+Bir nesne serileştirilecek ise yapılacaklar:
+- Sınıf public olarak declare(tanımlanma) edilmelidir.!
+- Sınıf serializable interface'sini implemente etmek zorundadır.
+- Sınıf'ın yapıcı metodunda argüman olamamalıdır.!
+- Argüman varsa constructor'da argümanı olmayan bir constructor eklenmelidir.
+- Sınıfın tüm alanları (ilkel tipler, class tipler, seri nesneler) dahil hepsi serileştirilebilmelidir.!

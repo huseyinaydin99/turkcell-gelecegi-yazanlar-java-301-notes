@@ -1,0 +1,21 @@
+Akışlar, üzerinde işlem yaptıkları veri tipine göre ikiye ayrılırlar.
+Java IO paketi kaynaklara yazma ve okuma için akış sınıfları içermektedir.
+
+
+			Stream Sınıfı(İkiye ayrılır)
+		|				|
+		ByteStream		CharacterStream
+
+Karakter bazlı okuma yazma işlemleri için Reader/Writer sınıfları kullanılır.
+Genellikle metin tabanlı okuma ve yazma işlemleri için kullanılır.
+Character olanlar: Class adlarında Reader/Writer olanlar.
+Bytes olanlar Class adlarında Input/Output olanlar. Dır.!
+
+Files: FileReader / FileInputStream
+Files: FileWriter / FileOutputStream
+Buffering: BufferedReader / BufferedInputStream
+Buffering: BufferedWriter / BufferedOutputStream
+Printing: PrintWriter / PrintStream
+
+Byte akışlarında ise ham veri dediğimiz kaynaklara erişim yapılır.
+Resim, müzik ve video gibi raw data içeren kaynaklara byte akışı ile erişmek daha peformanslıdır.

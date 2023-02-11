@@ -1,0 +1,11 @@
+Set arayüzü(interface'si) kümeyi tanımlar.
+Set arayüzünün somut(concreate) implementasyonları için HashSet, LinkedHashSet ve TreeSet verilebilir.
+HashSet nesneleri herhangi bir sıra olmasızın tutar.
+Set nesneleri eşsizdir. Unique.
+Set arayüzünde get metodu yoktur. Hedef nesneye gitmek için Set üzerinde ilerlemeliyiz. (Iterate).
+TreeSet nesneleri sıralı(sorted) şekilde tutar. TreeSet içinde her nesne Comparable veya Comparator arayüzünü implemente etmek zorundadır.
+
+SortedSet:>
+Set sınıfının alt sınıfıdır.
+Generic bir arayüzdür.
+Set tarafından sağlanan metotların yanında first() ve last() metotlarınıda sağlayıverir.

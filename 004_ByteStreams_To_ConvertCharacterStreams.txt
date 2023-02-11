@@ -1,0 +1,3 @@
+Java.IO API sağladığı sınıflar, Unicode karakter akışları ile Unicode olmayan byte akışlarının birbirlerine dönüştürülmelerini sağlarlar. Dönüşüm için kullanılan sınıflar:
+InputStreamReader ----Don't Unicode Bytes ------> Unicode characters //oku
+OutputStreamWriter ----Don't Unicode Bytes ------> Unicode characters //yaz

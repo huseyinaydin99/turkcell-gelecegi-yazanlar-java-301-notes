@@ -1,0 +1,2 @@
+FileReader sınıfından Reader nesnesi oluşturularak bir metin dosyası içinde char dizisi okunabilir.
+TXT ----> RAM

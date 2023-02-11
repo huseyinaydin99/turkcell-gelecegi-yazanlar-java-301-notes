@@ -1,0 +1,23 @@
+Konsol yazma / okuma işlemleri :>
+Kullanıcı giriş çıkış işlemleri için konsol kullanımına ilişkin 3 farklı yöntem gösterilecektir.
+
+1-) System.in(Scanner) class.
+2-) System.out
+3-) Console Class
+
+System.in ile okuma:
+System.in'den gelen giriş Scanner ile okunabilir:>
+Scanner scn = new Scanner(System.in);
+scn.nextLine(); --tüm satır okuma.
+Bir sonraki gelecek karakter kontrolü:
+while(scn.hasNext()){ --şeklinde yapılabilir.
+ syso("selam");
+}
+System.in InputStreamReader ile kullanılabilir.
+InputStreamReader inputStreamReader = new InputStreamReader(System.in); --şeklinde
+
+Console Sınıfı:
+Console console = System.console();
+String deger = console.readLine("Kelime giriniz: ");
+String password = console.readPassword"Şifre giriniz: "); --hassas gizli değer(bir şifre olabilir).
+

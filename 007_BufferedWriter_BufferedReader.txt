@@ -1,0 +1,22 @@
+BufferedReader:
+Giriş akışından okuduğu karakterleri dizileri veya satırları buffer'e yazar.
+Okunan verinin buffer'a alınarak işlenmesi performansı artırmaktadır.
+Buffer uzunlupu opsiyoneldir.
+Kaynaktaki veri daha büyükse doğrudan read() veya readLine() metodu yerine FileReader veya InputStreamReader sınıfları kullanılır.
+
+-----------------------    |
+System.in[InputStream]     |
+//soyut sınıf(class)       |
+-----------------------    |
+InputStreamReader          |
+read() metodu ekler        | //iç içe kullanılıyorlar.
+-----------------------    |
+BufferedReader             |
+readLine() ve              |
+Buffering ekler            |
+-----------------------    |
+BufferedWriter:
+Karakter çıkışlı bir akışa metin yazmak için kullanılır.
+Buffer uzunluğu opsiyoneldir.
+Karakterlerin, dizilerin ve stringlerin yüksek performanslı tampon bellek kullanarak yazılmasını sağlar.
+

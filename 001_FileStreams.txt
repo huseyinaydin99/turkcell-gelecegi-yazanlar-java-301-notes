@@ -1,0 +1,32 @@
+Dosya Akışları
+FileStreams
+:>
+Giriş kaynağı ve çıkış hedefi olmalı.!
+Farklı hedefler, kaynaklar, dosyalar, aygıtlar, farklı programlar vb. yerlerden okunabilir, yazılabilir.!
+Bytes, ilkel tipler, karakterler, nesneler okunabilir yahut yazılabilir;
+Özetle stream bir veri akışını temsil eder.!
+
+------------|           Program.java
+            | Veri akıyo-------------|
+Data Source |===========>  Veriler   |
+            |MaşaAllah  -------------|
+------------|
+
+Bilgi almak için program kaynağa bir stream açar ve okur.
+Bilgi vermek için program kaynağa bir stream açar ve yazar.
+Ohumaynan yazma lan işte inputnunan autput canım! (: Aman nöğrüyüüüm :)
+
+Java'da veri ile çalışmak için iki tip sınıf bulunur. Bunlar:>
+Yüksek seviyeli karakter tabanlı soyut sınıflar:>
+Reader and Writer.
+
+Düşük seviyeli byte tabanlı soyut sınıflar:>
+FileReader and FileWriter.
+
+                                                     StreamSınıfı
+                                                   ----------------
+										  BytesStream      |      CharacterStream
+
+Verinin tipinden nereye gittiğinden bağımsız olarak veri okuma / yazma algoritmaları aşağı yukarı aynıdır.
+
+

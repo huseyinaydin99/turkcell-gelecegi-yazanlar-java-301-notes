@@ -1,0 +1,9 @@
+InputStream ve OutputStream API'ları temel alınır.
+Bu sınıflar ikili tabanlı(0 - 1)(bytes) tüm giriş çıkış işlemleri için temel sınıflardır.
+Bu sınıflar soyut sınıflardır ve sadece birer soyut metot içerirler.
+abstract int read();
+abstract void write(int val);
+Soyut olmayan alt sınıflar read/write metotlarının implementasyonu içermek zorundadır.
+Kaynak ------> Program[RAM'dir] //okuma
+Program -------> Kaynak[File System(Dosya Sistemi)[Depolama Aygıtı(HDD, SSD, Flash Disk, Disket, CD/DVD...)]]
+

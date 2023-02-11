@@ -1,0 +1,23 @@
+Collections Framework:>
+- java.util paketinin içerisinde Java'nın en kuvvetli alt sistemlerinden birisi olan Collection Framework yer almaktadır.
+- Bir grup nesnenin yönetilmesini sağlar.
+- Collection Framework Java'ya J2SE 1.2 versiyonu ile gelmiştir.
+- Dictionary, Vector, Stack ve Properties sınıflarının eksikliklerinin çözümüne yanıt Collection Framework olarak verilmiştir.
+
+Neden Collection'lar?
+Yüksek performanslıdır.
+DynamicList, LinkedList, Tree, HashTable uygulamalar için oldukça verimlidir.
+Aynı tarzda ve yüksek seviyede birlikte çalışabilirlik sağlar.
+Birçok standart arayüz üzerine kurulmuştur.
+Örnek: LinkedList, HashSet ve TreeSet.
+Standart dizilerin Collection Framework ile birleştirilmesine olanak sağlar.
+Collection Framework algoritmaları Collection sınıfı içerisinde static metotlar olarak tanımlandıkları için tüm koleksiyonlar tarafından kullanılabilirler.
+
+Iterator arayuzu ile koleksiyon içerisindeki elementlere erişim kolaylığı sağlamaktadır.
+Koleksiyonlar generic tiple kodlanmışlar.
+
+Koleksiyonlarda tanımlı arayüzlere baktığımızda: 
+List, giriş sırasına göre oluşturulan nesneleri tutar ve eşsiz unique(benzersiz) olmayan elemanları içerir.
+Set yani küme sırası olmayan eşsiz elemanları içerir.
+Harita yani Map anahtar değer(key / value) çiftine dayalı elemanları tutar.
+Anahtar eşsizdir ve sıralı değildir.

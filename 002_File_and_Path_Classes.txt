@@ -1,0 +1,6 @@
+File:
+Java File sınıfı dosyaları ve dizinleri soyut bir şekilde tanımlar.
+File sınıfı; dosya/dizin yaratma, dosya arama, dosya silme maksatlarıyla kullanılır.!
+Path:
+Dosya sisteminde yer alan yolun programatik olarak tanımlanış halidir.
+File sınıfı ile birlikte dosya ve dizinler(klasörler) üzerinde işlem yapmak için kullanılır.
